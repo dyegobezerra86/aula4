@@ -3,12 +3,12 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: gray;
+    background-color: rgb(240, 229, 229);
     font-family: sans-serif;
 }
 
 .login-contanier {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 25px;
     width: 200px;
     height: 260px;
@@ -22,7 +22,7 @@ input, button {
     margin: 10% auto;
     padding: 8px;
     border-radius: 5px;
-    border: 1px solid color(#ccc);
+    border: 1px solid color(#000000);
     display: block;
 }
 
@@ -34,5 +34,9 @@ button {
 }
 
 button:hover {
-    background-color: rgb(66, 66, 78);
+    background-color: rgb(128, 128, 252);
+}
+
+a {
+    color: #000000;
 }
